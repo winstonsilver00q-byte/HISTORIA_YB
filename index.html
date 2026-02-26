@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Абылай хан | Yasin Bazarbay</title>
+
+<style>
+
+body{
+background:black;
+color:white;
+font-family:Arial;
+margin:0;
+padding:20px;
+line-height:1.6;
+}
+
+h1{
+font-size:40px;
+}
+
+img{
+width:220px;
+border-radius:10px;
+margin:15px 0;
+}
+
+.author{
+margin-top:30px;
+font-size:20px;
+font-weight:bold;
+color:yellow;
+}
+
+.school{
+color:#4da6ff;
+cursor:pointer;
+margin-top:15px;
+font-size:18px;
+}
+
+.school-info{
+display:none;
+margin-top:10px;
+background:#111;
+padding:15px;
+border-radius:10px;
+}
+
+footer{
+margin-top:30px;
+color:gray;
+}
+
+</style>
+
+</head>
+<body>
+
+<h1>Абылай хан</h1>
+
+<img src="abylai.jpg">
+
+<p>
+Абылай хан (настоящее имя — Абилмансур) — один из самых великих правителей казахского народа, хан Среднего жуза и правитель казахских земель.
+</p>
+
+<h2>Ранние годы</h2>
+
+<p>
+Абылай хан родился в 1711 году. Его отец был убит врагами. Он рос бедно и пас скот. Его называли Сабалак.
+</p>
+
+<h2>Как он стал известным</h2>
+
+<p>
+Он воевал против жонгаров. В одной битве победил врага и назвал своё имя Абылай. После этого стал султаном.
+</p>
+
+<h2>Когда стал ханом</h2>
+
+<p>
+В 1771 году стал ханом Среднего жуза.
+</p>
+
+<h2>Главные заслуги</h2>
+
+<p>
+Объединил казахов<br>
+Защитил землю<br>
+Установил отношения с Россией и Китаем
+</p>
+
+<h2>Смерть</h2>
+
+<p>
+Умер в 1781 году. Похоронен в Туркестане.
+</p>
+
+
+<div class="author">
+Автор: Yasin Bazarbay
+</div>
+
+
+
+<div class="school" onclick="openSchool()">
+Школа Абылайхан №2 (нажми)
+</div>
+
+
+
+<div class="school-info" id="info">
+
+Город Мырзакент.<br>
+Наша школа очень хорошая.<br>
+Ученики хорошие.<br>
+Учителя добрые и умные.<br>
+В школе чисто и красиво.<br>
+Мы получаем хорошие знания.<br>
+Я люблю свою школу.
+
+</div>
+
+
+
+<footer>
+© 2026 Yasin Bazarbay
+</footer>
+
+
+
+<script>
+
+function openSchool(){
+
+var x = document.getElementById("info");
+
+if(x.style.display === "block"){
+
+x.style.display = "none";
+
+}else{
+
+x.style.display = "block";
+
+}
+
+}
+
+</script>
+
+
+
+</body>
+</html>
